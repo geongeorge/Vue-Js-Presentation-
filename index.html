@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/bulma.min.css">
+		<link rel="stylesheet" href="css/theme/robot-lung-vue.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -25,9 +26,33 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section data-transition="zoom">
+					<div class="columns is-mobile is-centered is-vcentered">
+						<div class="column is-half is-pulled-right">
+									<figure class="image is-256x256">
+											<img class="plain" src="images/vue.png" alt="">
+									</figure>
+							</div>
+						<div class="column is-half has-text-left">
+								<h1>Vue.js</h1>
+								<p>The Progressive JavaScript Framework.</p>
+						</div>
+					</div>
+					
+					
+					
+					
+
+				</section>
+				<section>Slide 2</section>
+				<section>Slide 2</section>
 				<section>Slide 2</section>
 			</div>
+
+			<div class="line top"></div>
+			<div class="line bottom"></div>
+			<div class="line left"></div>
+			<div class="line right"></div>
 		</div>
 
 		<script src="js/reveal.js"></script>
@@ -37,6 +62,10 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				margin: 0.2,
+				progress: true,
+				history: true,
+				center: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
