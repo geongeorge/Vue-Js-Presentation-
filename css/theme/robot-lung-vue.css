@@ -36,6 +36,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
   right: 50px;
   bottom: 50px; }
 
+
+
 .line {
   content: '';
   position: fixed;
@@ -94,12 +96,12 @@ body {
 
 ::selection {
   color: #fff;
-  background: #ffc0d5;
+  background: #84eebf;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #ffc0d5;
+  background: #84eebf;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -338,3 +340,8 @@ body {
 .reveal .progress {
   z-index: 1000;
   color: #84eebf; }
+
+
+  .vue-text {
+    color: #41b883!important;
+  }
